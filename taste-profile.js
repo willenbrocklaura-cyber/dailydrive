@@ -166,7 +166,7 @@ Example output format:
         messages: [
           {
             role: "user",
-            content: llmPrompt,
+            content: "/// APP daily-drive\n\n" + llmPrompt,
           },
         ],
       }),
